@@ -3,7 +3,7 @@ var cat = [{'src':'./img/strawberryCat.jpg', 'length':"500", 'width':"430"},
 //anonymous function: ()=> or function()
 $(document).ready(()=>{
     $("#meow").html("<b>this is a meow</b>");
-    $("#imagePlaceholder").on("click",function(){
+    $("#imagePlaceholder").hover(function(){
         switch (this.src.substring(this.src.lastIndexOf('/')+1)){
             case "strawberryCat.jpg":
                 this.src=cat[1].src;
