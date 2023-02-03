@@ -1,4 +1,4 @@
-var cat = [{'src':'./img/strawberryCat.jpg', 'length':"500", 'width':"430"},
+var cat = [{'src':'./img/strawberryCat.jpg', 'length':"356", 'width':"475"},
         {'src':'./img/cat.jpeg','length':"460",'width':"420"}]
 //anonymous function: ()=> or function()
 $(document).ready(()=>{
