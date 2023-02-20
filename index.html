@@ -23,9 +23,49 @@
         </h1>
         
         <p>
-            This is my new website with different features
+            <style>
+                p {
+                    font-family: "Sans-serif", Helvetica, sans-serif;
+                    font-size: 15px;
+                    color: black;
+                    text-align: center;
+                }
+            </style>
+            Welcome to the Carroll Robotics website! Here you can find information about our team, our events, and our sponsors. 
+    
+            Please click this button to learn more about our team!
+            <p>
+                <!--  window.location.href property to change the current URL. 
+                      redirects to about.html -->
+                <button onclick="window.location.href = './img/1:14:23_stateQualGame.jpeg';">Media pictures</button>
+
+                <style>
+                    button {
+                        background-color: #D3D3D3;
+                        border: none;
+                        color: white;
+                        padding: 15px 15px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        cursor: pointer;
+                    }
+                </style>
+                <button type = button; onclick = "alert('not ready yet!')"> Teams! </button> </button>
+            </p>
+           
         </p>
+        <style>
+            #imagePlaceholder {
+                padding: 15px 32px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
         <img id="imagePlaceholder" src="./img/cat.jpeg" alt="cute cat" width="360" height="430" />
+       <!-- <img id="stateQualGame" src="./img/1:14:23_stateQualGame.jpeg" alt="stateQualGame" width="500" height="400" /> -->
     </body>
     <footer>
         meoww
